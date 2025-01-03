@@ -1,4 +1,4 @@
-/* 基础样式 */
+/* 全局基础样式 */
 body {
   font-family: "Microsoft YaHei", Arial, sans-serif;
   background: #f5f5f5;
@@ -21,6 +21,7 @@ h1 {
   margin-bottom: 20px;
 }
 
+/* 控件样式 */
 .controls {
   display: flex;
   justify-content: space-between;
@@ -49,19 +50,26 @@ h1 {
   cursor: pointer;
 }
 
+.batch-download button:hover {
+  background-color: #255aaf;
+}
+
+/* 文件树样式 */
 ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 li {
-  margin: 8px 0;
   display: flex;
   align-items: center;
+  margin: 5px 0;
 }
 
 .folder-icon, .file-icon {
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .download-link {
@@ -74,6 +82,23 @@ li {
   text-decoration: underline;
 }
 
-.highlight {
-  background-color: yellow;
+/* 可折叠文件夹 */
+.folder-toggle {
+  margin-right: 5px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.folder-toggle.open {
+  transform: rotate(90deg);
+}
+
+/* 子文件夹样式 */
+.nested {
+  margin-left: 20px;
+  display: none;
+}
+
+.nested.open {
+  display: block;
 }

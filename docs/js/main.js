@@ -12,29 +12,39 @@ document.addEventListener("DOMContentLoaded", async () => {
   // 渲染文件树
   renderFileTree(originalData);
 
-  // 绑定事件
+  // 搜索功能
   document.getElementById("searchInput").addEventListener("input", (e) => {
     const query = e.target.value.trim().toLowerCase();
-    applyFilters(query, document.getElementById("sortSelect").value);
+    currentData = query ? filterTree(originalData, query) : originalData;
+    renderFileTree(currentData);
   });
 
+  // 排序功能
   document.getElementById("sortSelect").addEventListener("change", (e) => {
     const query = document.getElementById("searchInput").value.trim().toLowerCase();
-    applyFilters(query, e.target.value);
+    currentData = sortTree(currentData, e.target.value);
+    renderFileTree(currentData);
   });
 
+  // 批量下载功能
   document.getElementById("downloadSelected").addEventListener("click", () => {
-    const selectedLinks = document.querySelectorAll(".select-checkbox:checked + .download-link");
-    if (selectedLinks.length === 0) {
-      alert("请选择要下载的文件！");
+    const selectedFiles = document.querySelectorAll(".select-checkbox:checked");
+    if (selectedFiles.length === 0) {
+      alert("请先选择要下载的文件！");
       return;
     }
 
-    selectedLinks.forEach((link) => {
-      const a = document.createElement("a");
-      a.href = link.href;
-      a.download = link.download;
-      a.click();
+    selectedFiles.forEach((checkbox) => {
+      const link = checkbox.nextElementSibling.nextElementSibling;
+      if (link && link.tagName === "A") {
+        const a = document.createElement("a");
+        a.href = link.href;
+        a.download = link.download;
+        a.style.display = "none";
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      }
     });
   });
 });
