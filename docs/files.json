@@ -1,7 +1,481 @@
 [
   {
+    "name": ".git",
+    "type": "directory",
+    "path": ".git",
+    "children": [
+      {
+        "name": "info",
+        "type": "directory",
+        "path": ".git/info",
+        "children": [
+          {
+            "name": "exclude",
+            "type": "file",
+            "path": ".git/info/exclude"
+          }
+        ]
+      },
+      {
+        "name": "HEAD",
+        "type": "file",
+        "path": ".git/HEAD"
+      },
+      {
+        "name": "refs",
+        "type": "directory",
+        "path": ".git/refs",
+        "children": [
+          {
+            "name": "heads",
+            "type": "directory",
+            "path": ".git/refs/heads",
+            "children": [
+              {
+                "name": "main",
+                "type": "file",
+                "path": ".git/refs/heads/main"
+              }
+            ]
+          },
+          {
+            "name": "tags",
+            "type": "directory",
+            "path": ".git/refs/tags",
+            "children": []
+          },
+          {
+            "name": "remotes",
+            "type": "directory",
+            "path": ".git/refs/remotes",
+            "children": [
+              {
+                "name": "origin",
+                "type": "directory",
+                "path": ".git/refs/remotes/origin",
+                "children": [
+                  {
+                    "name": "main",
+                    "type": "file",
+                    "path": ".git/refs/remotes/origin/main"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "FETCH_HEAD",
+        "type": "file",
+        "path": ".git/FETCH_HEAD"
+      },
+      {
+        "name": "description",
+        "type": "file",
+        "path": ".git/description"
+      },
+      {
+        "name": "config",
+        "type": "file",
+        "path": ".git/config"
+      },
+      {
+        "name": "logs",
+        "type": "directory",
+        "path": ".git/logs",
+        "children": [
+          {
+            "name": "HEAD",
+            "type": "file",
+            "path": ".git/logs/HEAD"
+          },
+          {
+            "name": "refs",
+            "type": "directory",
+            "path": ".git/logs/refs",
+            "children": [
+              {
+                "name": "heads",
+                "type": "directory",
+                "path": ".git/logs/refs/heads",
+                "children": [
+                  {
+                    "name": "main",
+                    "type": "file",
+                    "path": ".git/logs/refs/heads/main"
+                  }
+                ]
+              },
+              {
+                "name": "remotes",
+                "type": "directory",
+                "path": ".git/logs/refs/remotes",
+                "children": [
+                  {
+                    "name": "origin",
+                    "type": "directory",
+                    "path": ".git/logs/refs/remotes/origin",
+                    "children": [
+                      {
+                        "name": "main",
+                        "type": "file",
+                        "path": ".git/logs/refs/remotes/origin/main"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "index",
+        "type": "file",
+        "path": ".git/index"
+      },
+      {
+        "name": "hooks",
+        "type": "directory",
+        "path": ".git/hooks",
+        "children": [
+          {
+            "name": "pre-merge-commit.sample",
+            "type": "file",
+            "path": ".git/hooks/pre-merge-commit.sample"
+          },
+          {
+            "name": "push-to-checkout.sample",
+            "type": "file",
+            "path": ".git/hooks/push-to-checkout.sample"
+          },
+          {
+            "name": "pre-receive.sample",
+            "type": "file",
+            "path": ".git/hooks/pre-receive.sample"
+          },
+          {
+            "name": "applypatch-msg.sample",
+            "type": "file",
+            "path": ".git/hooks/applypatch-msg.sample"
+          },
+          {
+            "name": "pre-commit.sample",
+            "type": "file",
+            "path": ".git/hooks/pre-commit.sample"
+          },
+          {
+            "name": "commit-msg.sample",
+            "type": "file",
+            "path": ".git/hooks/commit-msg.sample"
+          },
+          {
+            "name": "pre-rebase.sample",
+            "type": "file",
+            "path": ".git/hooks/pre-rebase.sample"
+          },
+          {
+            "name": "post-update.sample",
+            "type": "file",
+            "path": ".git/hooks/post-update.sample"
+          },
+          {
+            "name": "sendemail-validate.sample",
+            "type": "file",
+            "path": ".git/hooks/sendemail-validate.sample"
+          },
+          {
+            "name": "pre-applypatch.sample",
+            "type": "file",
+            "path": ".git/hooks/pre-applypatch.sample"
+          },
+          {
+            "name": "update.sample",
+            "type": "file",
+            "path": ".git/hooks/update.sample"
+          },
+          {
+            "name": "prepare-commit-msg.sample",
+            "type": "file",
+            "path": ".git/hooks/prepare-commit-msg.sample"
+          },
+          {
+            "name": "pre-push.sample",
+            "type": "file",
+            "path": ".git/hooks/pre-push.sample"
+          },
+          {
+            "name": "fsmonitor-watchman.sample",
+            "type": "file",
+            "path": ".git/hooks/fsmonitor-watchman.sample"
+          }
+        ]
+      },
+      {
+        "name": "branches",
+        "type": "directory",
+        "path": ".git/branches",
+        "children": []
+      },
+      {
+        "name": "shallow",
+        "type": "file",
+        "path": ".git/shallow"
+      },
+      {
+        "name": "objects",
+        "type": "directory",
+        "path": ".git/objects",
+        "children": [
+          {
+            "name": "info",
+            "type": "directory",
+            "path": ".git/objects/info",
+            "children": []
+          },
+          {
+            "name": "3f",
+            "type": "directory",
+            "path": ".git/objects/3f",
+            "children": [
+              {
+                "name": "6c90024944770a583630382834cad43a582813",
+                "type": "file",
+                "path": ".git/objects/3f/6c90024944770a583630382834cad43a582813"
+              }
+            ]
+          },
+          {
+            "name": "a3",
+            "type": "directory",
+            "path": ".git/objects/a3",
+            "children": [
+              {
+                "name": "1557c683873f9c2e8e536609e82d07ebddd9f4",
+                "type": "file",
+                "path": ".git/objects/a3/1557c683873f9c2e8e536609e82d07ebddd9f4"
+              }
+            ]
+          },
+          {
+            "name": "e6",
+            "type": "directory",
+            "path": ".git/objects/e6",
+            "children": [
+              {
+                "name": "9de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                "type": "file",
+                "path": ".git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+              }
+            ]
+          },
+          {
+            "name": "8c",
+            "type": "directory",
+            "path": ".git/objects/8c",
+            "children": [
+              {
+                "name": "077a722a271fccc94bc5e975a63c1bfd22513d",
+                "type": "file",
+                "path": ".git/objects/8c/077a722a271fccc94bc5e975a63c1bfd22513d"
+              }
+            ]
+          },
+          {
+            "name": "ec",
+            "type": "directory",
+            "path": ".git/objects/ec",
+            "children": [
+              {
+                "name": "6af79efdd365be49884d5cda2de1191484a55f",
+                "type": "file",
+                "path": ".git/objects/ec/6af79efdd365be49884d5cda2de1191484a55f"
+              }
+            ]
+          },
+          {
+            "name": "d7",
+            "type": "directory",
+            "path": ".git/objects/d7",
+            "children": [
+              {
+                "name": "c422fccd0d5e3124b6f5b2b85cecd690968259",
+                "type": "file",
+                "path": ".git/objects/d7/c422fccd0d5e3124b6f5b2b85cecd690968259"
+              }
+            ]
+          },
+          {
+            "name": "13",
+            "type": "directory",
+            "path": ".git/objects/13",
+            "children": [
+              {
+                "name": "cc13230ebaccba78bec735c52ba1e09c34e242",
+                "type": "file",
+                "path": ".git/objects/13/cc13230ebaccba78bec735c52ba1e09c34e242"
+              }
+            ]
+          },
+          {
+            "name": "ae",
+            "type": "directory",
+            "path": ".git/objects/ae",
+            "children": [
+              {
+                "name": "7e33eea9b0c6cf468ba33f05c5cbfbfdbd3958",
+                "type": "file",
+                "path": ".git/objects/ae/7e33eea9b0c6cf468ba33f05c5cbfbfdbd3958"
+              }
+            ]
+          },
+          {
+            "name": "e0",
+            "type": "directory",
+            "path": ".git/objects/e0",
+            "children": [
+              {
+                "name": "2a5af8edcd0ef03c87a9b1ae4e150af41adb62",
+                "type": "file",
+                "path": ".git/objects/e0/2a5af8edcd0ef03c87a9b1ae4e150af41adb62"
+              }
+            ]
+          },
+          {
+            "name": "2e",
+            "type": "directory",
+            "path": ".git/objects/2e",
+            "children": [
+              {
+                "name": "e13ebc60cb4722d3b993039625aefc12acb10f",
+                "type": "file",
+                "path": ".git/objects/2e/e13ebc60cb4722d3b993039625aefc12acb10f"
+              }
+            ]
+          },
+          {
+            "name": "b3",
+            "type": "directory",
+            "path": ".git/objects/b3",
+            "children": [
+              {
+                "name": "98508fa58b04c691835113f08311da9c7eee89",
+                "type": "file",
+                "path": ".git/objects/b3/98508fa58b04c691835113f08311da9c7eee89"
+              }
+            ]
+          },
+          {
+            "name": "bb",
+            "type": "directory",
+            "path": ".git/objects/bb",
+            "children": [
+              {
+                "name": "5078f8389ce77ba31f8b0df3fc33a7e470fb0f",
+                "type": "file",
+                "path": ".git/objects/bb/5078f8389ce77ba31f8b0df3fc33a7e470fb0f"
+              }
+            ]
+          },
+          {
+            "name": "cc",
+            "type": "directory",
+            "path": ".git/objects/cc",
+            "children": [
+              {
+                "name": "e775266b121fdfb96a38ebb0bb2f49d4384d32",
+                "type": "file",
+                "path": ".git/objects/cc/e775266b121fdfb96a38ebb0bb2f49d4384d32"
+              }
+            ]
+          },
+          {
+            "name": "57",
+            "type": "directory",
+            "path": ".git/objects/57",
+            "children": [
+              {
+                "name": "1164de738150d19b47b3aefe50b486a8c462ec",
+                "type": "file",
+                "path": ".git/objects/57/1164de738150d19b47b3aefe50b486a8c462ec"
+              }
+            ]
+          },
+          {
+            "name": "pack",
+            "type": "directory",
+            "path": ".git/objects/pack",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": ".github",
+    "type": "directory",
+    "path": ".github",
+    "children": [
+      {
+        "name": "workflows",
+        "type": "directory",
+        "path": ".github/workflows",
+        "children": [
+          {
+            "name": "update-json.yml",
+            "type": "file",
+            "path": ".github/workflows/update-json.yml"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "docs",
+    "type": "directory",
+    "path": "docs",
+    "children": [
+      {
+        "name": "files.json",
+        "type": "file",
+        "path": "docs/files.json"
+      },
+      {
+        "name": "script.js",
+        "type": "file",
+        "path": "docs/script.js"
+      },
+      {
+        "name": "index.html",
+        "type": "file",
+        "path": "docs/index.html"
+      },
+      {
+        "name": "style.css",
+        "type": "file",
+        "path": "docs/style.css"
+      },
+      {
+        "name": "generate_json.py",
+        "type": "file",
+        "path": "docs/generate_json.py"
+      },
+      {
+        "name": ".nojekyll",
+        "type": "file",
+        "path": "docs/.nojekyll"
+      }
+    ]
+  },
+  {
     "name": "README.md",
     "type": "file",
     "path": "README.md"
+  },
+  {
+    "name": "LICENSE",
+    "type": "file",
+    "path": "LICENSE"
   }
 ]
