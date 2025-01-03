@@ -22,25 +22,26 @@
     const li = document.createElement("li");
   
     if (item.type === "directory") {
-      // 文件夹节点
+      // 添加文件夹的展开/关闭箭头
       const toggleIcon = document.createElement("span");
       toggleIcon.className = "folder-toggle";
-      toggleIcon.innerHTML = '<i class="fas fa-chevron-right"></i>'; // 箭头图标
+      toggleIcon.innerHTML = '<i class="fas fa-chevron-right"></i>'; // 使用 Font Awesome 图标
   
+      // 添加文件夹名称
       const folderName = document.createElement("span");
       folderName.className = "folder-icon";
       folderName.textContent = item.name;
   
-      li.appendChild(toggleIcon); // 添加展开/关闭图标
+      li.appendChild(toggleIcon); // 添加箭头
       li.appendChild(folderName); // 添加文件夹名称
   
-      // 子文件/文件夹容器
+      // 渲染子文件/文件夹
       const childrenUl = document.createElement("ul");
-      childrenUl.className = "nested"; // 默认隐藏子节点
+      childrenUl.className = "nested"; // 默认隐藏子文件夹
       item.children.forEach((child) => childrenUl.appendChild(createTreeItem(child)));
       li.appendChild(childrenUl);
     } else {
-      // 文件节点
+      // 渲染文件
       const fileName = document.createElement("span");
       fileName.className = "file-icon";
       fileName.textContent = item.name;
@@ -59,7 +60,7 @@
   }
   
   /**
-   * 添加文件夹的展开/关闭事件
+   * 为文件夹绑定展开/关闭事件
    */
   function addToggleClickEvent() {
     document.querySelectorAll(".folder-toggle").forEach((toggle) => {

@@ -1,27 +1,4 @@
 /* 全局样式 */
-body {
-  font-family: "Microsoft YaHei", Arial, sans-serif;
-  background: #f5f5f5;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  width: 90%;
-  max-width: 960px;
-  margin: 30px auto;
-  background: #fff;
-  border-radius: 5px;
-  padding: 20px;
-  box-shadow: 0 0 10px #ccc;
-}
-
-h1 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-/* 文件树样式 */
 ul {
   list-style: none;
   padding: 0;
@@ -46,24 +23,15 @@ li {
 }
 
 .folder-toggle.open {
-  transform: rotate(90deg);
+  transform: rotate(90deg); /* 展开时旋转箭头 */
 }
 
+/* 默认隐藏子文件夹 */
 .nested {
   display: none;
   margin-left: 20px;
 }
 
 .nested.open {
-  display: block;
-}
-
-.download-link {
-  margin-left: auto;
-  text-decoration: none;
-  color: #3273dc;
-}
-
-.download-link:hover {
-  text-decoration: underline;
+  display: block; /* 展开子文件夹 */
 }
