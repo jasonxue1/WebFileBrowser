@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
-  <title>文件下载界面（美化版）</title>
+  <title>文件浏览器</title>
   <link rel="stylesheet" href="css/style.css">
   <link
     rel="stylesheet"
@@ -14,34 +14,13 @@
 </head>
 <body>
   <div class="container">
-    <h1>文件下载界面</h1>
-
-    <!-- 搜索框、排序与批量下载 -->
-    <div class="controls">
-      <div class="search-box">
-        <input type="text" id="searchInput" placeholder="搜索文件或文件夹...">
-      </div>
-      <div class="sort-box">
-        <label for="sortSelect">排序：</label>
-        <select id="sortSelect">
-          <option value="name-asc">名称 A-Z</option>
-          <option value="name-desc">名称 Z-A</option>
-          <option value="type-asc">类型 A-Z</option>
-          <option value="type-desc">类型 Z-A</option>
-        </select>
-      </div>
-      <div class="batch-download">
-        <button id="downloadSelected">批量下载选中文件</button>
-      </div>
-    </div>
-
+    <h1>文件浏览器</h1>
     <!-- 文件树 -->
     <div id="file-tree"></div>
   </div>
 
   <script src="js/api.js"></script>
   <script src="js/render.js"></script>
-  <script src="js/filters.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
