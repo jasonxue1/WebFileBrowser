@@ -1,0 +1,46 @@
+/* 页面基础样式 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* 容器 */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 文件树样式 */
+  ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin: 8px 0;
+  }
+  
+  li a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* 文件夹和文件的样式 */
+  .directory {
+    font-weight: bold;
+  }
+  
+  .file {
+    color: #333;
+  }
+  
