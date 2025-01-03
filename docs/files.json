@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "name": "08历史",
     "type": "directory",
     "path": "08历史",
@@ -2230,6 +2231,56 @@
                 "children": [
                   {
                     "name": "04 Unit 4 Pastimes in the past.mp4",
+=======
+    "name": "README.md",
+    "type": "file",
+    "path": "README.md"
+  },
+  {
+    "name": "LICENSE",
+    "type": "file",
+    "path": "LICENSE"
+  },
+  {
+    "name": "测试",
+    "type": "directory",
+    "path": "测试",
+    "children": [
+      {
+        "name": "好",
+        "type": "directory",
+        "path": "测试/好",
+        "children": [
+          {
+            "name": "好1.pdf",
+            "type": "file",
+            "path": "测试/好/好1.pdf"
+          },
+          {
+            "name": "好2.pdf",
+            "type": "file",
+            "path": "测试/好/好2.pdf"
+          }
+        ]
+      },
+      {
+        "name": "你爹",
+        "type": "directory",
+        "path": "测试/你爹",
+        "children": [
+          {
+            "name": "不好",
+            "type": "directory",
+            "path": "测试/你爹/不好",
+            "children": [
+              {
+                "name": "test",
+                "type": "directory",
+                "path": "测试/你爹/不好/test",
+                "children": [
+                  {
+                    "name": "专题练习4.pdf",
+>>>>>>> 4e8e93bd18533d78afd8a9c9fbf59c55135d0d27
                     "type": "file",
                     "path": "03英语/8班英语那些事儿/教材配套视频/1-1 视频 (有字幕)/04 Unit 4 Pastimes in the past.mp4"
                   },
@@ -2807,6 +2858,30 @@
         "name": "哲学校本答案.pptx",
         "type": "file",
         "path": "07政治/哲学校本答案.pptx"
+      }
+    ]
+  },
+  {
+    "name": "很好",
+    "type": "directory",
+    "path": "很好",
+    "children": [
+      {
+        "name": "文件.pdf",
+        "type": "file",
+        "path": "很好/文件.pdf"
+      },
+      {
+        "name": "qwe",
+        "type": "directory",
+        "path": "很好/qwe",
+        "children": [
+          {
+            "name": "文件.pdf",
+            "type": "file",
+            "path": "很好/qwe/文件.pdf"
+          }
+        ]
       }
     ]
   }
