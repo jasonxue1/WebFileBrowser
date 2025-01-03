@@ -1,5 +1,10 @@
 [
   {
+    "name": "git_sync.bat",
+    "type": "file",
+    "path": "git_sync.bat"
+  },
+  {
     "name": ".git",
     "type": "directory",
     "path": ".git",
@@ -283,6 +288,30 @@
             ]
           },
           {
+            "name": "23",
+            "type": "directory",
+            "path": ".git/objects/23",
+            "children": [
+              {
+                "name": "8ee0ad670efa06dd3778d6287b8953c0ac8157",
+                "type": "file",
+                "path": ".git/objects/23/8ee0ad670efa06dd3778d6287b8953c0ac8157"
+              }
+            ]
+          },
+          {
+            "name": "19",
+            "type": "directory",
+            "path": ".git/objects/19",
+            "children": [
+              {
+                "name": "2fc1193bae94bc919b385616d04a0f1cdd2170",
+                "type": "file",
+                "path": ".git/objects/19/2fc1193bae94bc919b385616d04a0f1cdd2170"
+              }
+            ]
+          },
+          {
             "name": "ec",
             "type": "directory",
             "path": ".git/objects/ec",
@@ -291,6 +320,30 @@
                 "name": "6af79efdd365be49884d5cda2de1191484a55f",
                 "type": "file",
                 "path": ".git/objects/ec/6af79efdd365be49884d5cda2de1191484a55f"
+              }
+            ]
+          },
+          {
+            "name": "2b",
+            "type": "directory",
+            "path": ".git/objects/2b",
+            "children": [
+              {
+                "name": "924cb2ac61422dad2561c3b635b5c5428f9ccf",
+                "type": "file",
+                "path": ".git/objects/2b/924cb2ac61422dad2561c3b635b5c5428f9ccf"
+              }
+            ]
+          },
+          {
+            "name": "50",
+            "type": "directory",
+            "path": ".git/objects/50",
+            "children": [
+              {
+                "name": "b7d1e2d032b9db8b406dfa05442a628b05065d",
+                "type": "file",
+                "path": ".git/objects/50/b7d1e2d032b9db8b406dfa05442a628b05065d"
               }
             ]
           },
@@ -307,14 +360,50 @@
             ]
           },
           {
-            "name": "13",
+            "name": "3c",
             "type": "directory",
-            "path": ".git/objects/13",
+            "path": ".git/objects/3c",
             "children": [
               {
-                "name": "cc13230ebaccba78bec735c52ba1e09c34e242",
+                "name": "35f29f53c3ba98121f24d27b81bbcd82539a11",
                 "type": "file",
-                "path": ".git/objects/13/cc13230ebaccba78bec735c52ba1e09c34e242"
+                "path": ".git/objects/3c/35f29f53c3ba98121f24d27b81bbcd82539a11"
+              }
+            ]
+          },
+          {
+            "name": "e9",
+            "type": "directory",
+            "path": ".git/objects/e9",
+            "children": [
+              {
+                "name": "ff300c76382939f5534d1e1cd4ba5665447313",
+                "type": "file",
+                "path": ".git/objects/e9/ff300c76382939f5534d1e1cd4ba5665447313"
+              }
+            ]
+          },
+          {
+            "name": "8d",
+            "type": "directory",
+            "path": ".git/objects/8d",
+            "children": [
+              {
+                "name": "bc4f60e424d3ad97bbb231f8c80406844f40c5",
+                "type": "file",
+                "path": ".git/objects/8d/bc4f60e424d3ad97bbb231f8c80406844f40c5"
+              }
+            ]
+          },
+          {
+            "name": "26",
+            "type": "directory",
+            "path": ".git/objects/26",
+            "children": [
+              {
+                "name": "2ded703786b35bbd74b7d5092f492c3022a734",
+                "type": "file",
+                "path": ".git/objects/26/2ded703786b35bbd74b7d5092f492c3022a734"
               }
             ]
           },
@@ -331,26 +420,14 @@
             ]
           },
           {
-            "name": "e0",
+            "name": "42",
             "type": "directory",
-            "path": ".git/objects/e0",
+            "path": ".git/objects/42",
             "children": [
               {
-                "name": "2a5af8edcd0ef03c87a9b1ae4e150af41adb62",
+                "name": "1ec4ac7303676f06818a812154c3e6ea1e61ec",
                 "type": "file",
-                "path": ".git/objects/e0/2a5af8edcd0ef03c87a9b1ae4e150af41adb62"
-              }
-            ]
-          },
-          {
-            "name": "2e",
-            "type": "directory",
-            "path": ".git/objects/2e",
-            "children": [
-              {
-                "name": "e13ebc60cb4722d3b993039625aefc12acb10f",
-                "type": "file",
-                "path": ".git/objects/2e/e13ebc60cb4722d3b993039625aefc12acb10f"
+                "path": ".git/objects/42/1ec4ac7303676f06818a812154c3e6ea1e61ec"
               }
             ]
           },
@@ -391,22 +468,46 @@
             ]
           },
           {
-            "name": "57",
-            "type": "directory",
-            "path": ".git/objects/57",
-            "children": [
-              {
-                "name": "1164de738150d19b47b3aefe50b486a8c462ec",
-                "type": "file",
-                "path": ".git/objects/57/1164de738150d19b47b3aefe50b486a8c462ec"
-              }
-            ]
-          },
-          {
             "name": "pack",
             "type": "directory",
             "path": ".git/objects/pack",
             "children": []
+          },
+          {
+            "name": "3e",
+            "type": "directory",
+            "path": ".git/objects/3e",
+            "children": [
+              {
+                "name": "781b259f2572620e284a484f03dcbafae7108e",
+                "type": "file",
+                "path": ".git/objects/3e/781b259f2572620e284a484f03dcbafae7108e"
+              }
+            ]
+          },
+          {
+            "name": "98",
+            "type": "directory",
+            "path": ".git/objects/98",
+            "children": [
+              {
+                "name": "68a5138aff7ff39fe7e38470ee300f5b8ddb37",
+                "type": "file",
+                "path": ".git/objects/98/68a5138aff7ff39fe7e38470ee300f5b8ddb37"
+              }
+            ]
+          },
+          {
+            "name": "63",
+            "type": "directory",
+            "path": ".git/objects/63",
+            "children": [
+              {
+                "name": "fef5bbf18bccb58510de6b0535f041f0a5e120",
+                "type": "file",
+                "path": ".git/objects/63/fef5bbf18bccb58510de6b0535f041f0a5e120"
+              }
+            ]
           }
         ]
       }
@@ -477,5 +578,77 @@
     "name": "LICENSE",
     "type": "file",
     "path": "LICENSE"
+  },
+  {
+    "name": "测试",
+    "type": "directory",
+    "path": "测试",
+    "children": [
+      {
+        "name": "好",
+        "type": "directory",
+        "path": "测试/好",
+        "children": [
+          {
+            "name": "好1.pdf",
+            "type": "file",
+            "path": "测试/好/好1.pdf"
+          },
+          {
+            "name": "好2.pdf",
+            "type": "file",
+            "path": "测试/好/好2.pdf"
+          }
+        ]
+      },
+      {
+        "name": "你爹",
+        "type": "directory",
+        "path": "测试/你爹",
+        "children": [
+          {
+            "name": "不好",
+            "type": "directory",
+            "path": "测试/你爹/不好",
+            "children": [
+              {
+                "name": "test",
+                "type": "directory",
+                "path": "测试/你爹/不好/test",
+                "children": [
+                  {
+                    "name": "专题练习4.pdf",
+                    "type": "file",
+                    "path": "测试/你爹/不好/test/专题练习4.pdf"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "坏",
+            "type": "directory",
+            "path": "测试/你爹/坏",
+            "children": [
+              {
+                "name": "1.pdf",
+                "type": "file",
+                "path": "测试/你爹/坏/1.pdf"
+              },
+              {
+                "name": "kk.pdf",
+                "type": "file",
+                "path": "测试/你爹/坏/kk.pdf"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "文件.pdf",
+        "type": "file",
+        "path": "测试/文件.pdf"
+      }
+    ]
   }
 ]
