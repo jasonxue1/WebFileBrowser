@@ -5,27 +5,27 @@
     "path": "测试",
     "children": [
       {
+        "name": "好",
+        "type": "directory",
+        "path": "测试/好",
+        "children": [
+          {
+            "name": "好1.pdf",
+            "type": "file",
+            "path": "测试/好/好1.pdf"
+          },
+          {
+            "name": "好2.pdf",
+            "type": "file",
+            "path": "测试/好/好2.pdf"
+          }
+        ]
+      },
+      {
         "name": "你爹",
         "type": "directory",
         "path": "测试/你爹",
         "children": [
-          {
-            "name": "坏",
-            "type": "directory",
-            "path": "测试/你爹/坏",
-            "children": [
-              {
-                "name": "kk.pdf",
-                "type": "file",
-                "path": "测试/你爹/坏/kk.pdf"
-              },
-              {
-                "name": "1.pdf",
-                "type": "file",
-                "path": "测试/你爹/坏/1.pdf"
-              }
-            ]
-          },
           {
             "name": "不好",
             "type": "directory",
@@ -44,23 +44,23 @@
                 ]
               }
             ]
-          }
-        ]
-      },
-      {
-        "name": "好",
-        "type": "directory",
-        "path": "测试/好",
-        "children": [
-          {
-            "name": "好2.pdf",
-            "type": "file",
-            "path": "测试/好/好2.pdf"
           },
           {
-            "name": "好1.pdf",
-            "type": "file",
-            "path": "测试/好/好1.pdf"
+            "name": "坏",
+            "type": "directory",
+            "path": "测试/你爹/坏",
+            "children": [
+              {
+                "name": "1.pdf",
+                "type": "file",
+                "path": "测试/你爹/坏/1.pdf"
+              },
+              {
+                "name": "kk.pdf",
+                "type": "file",
+                "path": "测试/你爹/坏/kk.pdf"
+              }
+            ]
           }
         ]
       },
@@ -80,6 +80,11 @@
         "name": "文件.pdf",
         "type": "file",
         "path": "很好/文件.pdf"
+      },
+      {
+        "name": "1.txt",
+        "type": "file",
+        "path": "很好/1.txt"
       },
       {
         "name": "qwe",
