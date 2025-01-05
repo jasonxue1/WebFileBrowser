@@ -1,25 +1,18 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>文件浏览器</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-pVnNIX+V9tV5evM6KCwLeHEOFE6cM9R3FJQzP6KCwLeHEOFE6cM9R3FJQzP0xHJe7w4qC1nghZQ=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Browser</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>文件浏览器</h1>
-    <div id="file-tree"></div>
-  </div>
-
-  <script src="js/api.js"></script>
-  <script src="js/render.js"></script>
-  <script src="js/main.js"></script>
+    <ul class="file-list">
+        <!-- 文件列表动态加载 -->
+    </ul>
+    <script src="./js/config.js"></script>
+    <script src="./js/utils.js"></script>
+    <script src="./js/api.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
